@@ -3,10 +3,10 @@ package main
 import (
 	"os"
 
-	"github.com/ryomak/music-cli/cli"
+	"github.com/ryomak/music-cli/mcli"
 )
 
 func main() {
-	app := cli.New("music-cli", "BGM", "1.0.0")
+  app := mcli.New("music-cli", "BGM", "1.0.0")
 	app.Run(os.Args)
 }
