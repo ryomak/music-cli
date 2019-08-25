@@ -16,11 +16,6 @@ func New(name, usage, version string) *cli.App {
 func getCommands() []cli.Command {
 	return []cli.Command{
 		{
-			Name:   "list",
-			Usage:  "show music list",
-			Action: list,
-		},
-		{
 			Name:   "play",
 			Usage:  "play music",
 			Action: play,

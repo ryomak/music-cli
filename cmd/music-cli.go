@@ -2,7 +2,8 @@ package main
 
 import (
 	"os"
-  "github.com/ryomak/music-cli/cli"
+
+	"github.com/ryomak/music-cli/cli"
 )
 
 func main() {
