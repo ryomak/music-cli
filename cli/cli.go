@@ -18,12 +18,12 @@ func getCommands() []cli.Command {
 		{
 			Name:   "list",
 			Usage:  "show music list",
-			Action: action.List,
+			Action: list,
 		},
 		{
 			Name:   "play",
 			Usage:  "play music",
-			Action: action.Play,
+			Action: play,
 		},
 	}
 }
